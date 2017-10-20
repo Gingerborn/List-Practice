@@ -78,9 +78,21 @@ while x == True:
 		user_list.append(item)
 		time.sleep(1)
 		print("Your list is now:", user_list)
+		number = 0
+		number = number + 1
 	else:
 		time.sleep(1)
 		print("Your list = ", user_list)
 		time.sleep(1)
 		x = False
-		print("Ok, list program signing off, cheers!")
+
+time.sleep(1)
+print("Now I think that' enough with our lists, let's destroy the evidence.")
+time.sleep(1)
+del clonedev_list[0:6]
+del user_list[0:number + 1]
+print(clonedev_list, "Our first list has been deleted...")
+time.sleep(1)
+print(user_list, "Your list has been deleted...")
+time.sleep(1)
+print("Ok, list program signing off, cheers!")

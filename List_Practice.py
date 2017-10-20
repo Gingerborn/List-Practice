@@ -80,5 +80,7 @@ while x == True:
 		print("Your list is now:", user_list)
 	else:
 		time.sleep(1)
+		print("Your list = ", user_list)
+		time.sleep(1)
 		x = False
-		print("Ok, list program signing off, cheers folks!")
+		print("Ok, list program signing off, cheers!")
